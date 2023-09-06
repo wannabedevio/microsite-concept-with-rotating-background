@@ -6,7 +6,7 @@ An animated microsite concept with rotating background made with HTML5, CSS3, Ja
 
 [Article on WANNABEDEV](https://wannabedev.io/tutorials/microsite-concept-with-rotating-background)
 
-[Demo](https://wannabedev.io/_posts/microsite-concept-with-rotating-background/demo)
+[Demo](https://wannabedev.io/_posts/microsite-concept-with-rotating-background/demo/index.html)
 
 ## Credits
 - The inspiration for effects and Layout comes from [SELECTO](https://dribbble.com/shots/3257765-Dope-landing-page-animation)
