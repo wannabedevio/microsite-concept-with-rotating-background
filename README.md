@@ -2,8 +2,6 @@
 
 An animated microsite concept with rotating background made with HTML5, CSS3, JavaScript and Greensock. 
 
-[Demo](https://coidea.website/demos/microsite-concept-with-rotating-background)
-
 ![Microsite Concept with Rotating Background](/assets/img/microsite-concept-with-rotating-background.png)
 
 [Article on WANNABEDEV](https://wannabedev.io/tutorials/microsite-concept-with-rotating-background)
