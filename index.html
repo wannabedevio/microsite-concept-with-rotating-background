@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Microsite Concept with Rotating Background - DEMO - wannabedev.io</title>
+		<meta name="description" content="An animated microsite concept with rotating circular background made with CSS3, JavaScript and Greensock." />
+		<meta name="keywords" content="gsap, microsite, javascript, background, slider, rotating, slideshow" />
+		<meta name="author" content="Mirza Hodzic" />
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJR1BPWFF0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SJR1BPWFF0', {
+        page_path: window.location.pathname,
+      });
+    </script>
+
+  </head>
+  <body class="is-loading">
+    
+    <!-- loader START -->
+    <div class="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- loader END -->
+
+    <!-- header START -->
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <a href="https://wannabedev.io"><span>microsite</span></a>
+        </div>
+        <div class="header-headline">
+          <!-- slider:navigation START -->
+          <div class="slides-navigation">
+            <a class="main-nav__link prev disabled">Prev</a>
+            <a class="main-nav__link next">Next</a>
+          </div>
+          <!-- slider:navigation END -->
+        </div>
+        <nav class="navigation">
+          <li><a href="https://wannabedev.io"><span>Home</span></a></li>
+          <li><a href="https://www.wannabedev.io/tutorials/microsite-concept-with-rotating-background"><span>Back to Article</span></a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- header END -->
+
+    <!-- microsite START -->
+    <section class="slider">
+
+      <!-- slider:background START -->
+      <div class="slides-background"></div>
+      <!-- slider:background END -->
+      
+      <!-- slider:container START -->
+      <div class="slides-container">
+      
+        <!-- slider:iphone START -->
+        <div class="slides-iphone">
+          <div class="iphone"></div>
+          <div class="image" style="background-image: url(assets/img/img-1.jpeg);"></div>
+          <div class="image-blank"></div>
+        </div>
+        <!-- slider:iphone END -->
+      
+        <!-- slider:container:slide START -->
+        <span>
+          <article id="slide-01" data-id="0" class="slide is-active" data-bcg="assets/img/img-1.jpeg">
+            <div class="slide__content slide__content_left">
+              <h1 class="slide__title slide__title_left">
+                Be a voice.
+                <span>Never stop dreaming.</span>
+              </h1>
+            </div>
+            <div class="slide__content slide__content_right">
+              <h1 class="slide__title slide__title_right">
+                Not an echo.
+                <span>Never stop dreaming.</span>
+              </h1>
+            </div>
+          </article>
+          <!-- slider:container:slide END -->
+          
+          <!-- slider:container:slide START -->
+          <article id="slide-02" data-id="1" class="slide" data-bcg="assets/img/img-2.jpeg">
+            <div class="slide__content slide__content_left">
+              <h1 class="slide__title slide__title_left">
+                Collect<br>moments.
+                <span>Never stop dreaming.</span>
+              </h1>
+            </div>
+            <div class="slide__content slide__content_right">
+              <h1 class="slide__title slide__title_right">
+                Not<br>things.
+                <span>Never stop dreaming.</span>
+              </h1>
+            </div>
+          </article>
+          <!-- slider:container:slide END -->
+
+          <!-- slider:container:slide START -->
+          <article id="slide-03" data-id="2" class="slide" data-bcg="assets/img/img-3.jpeg">
+            <div class="slide__content slide__content_left">
+              <h1 class="slide__title slide__title_left">
+                Find<br>yourself.
+                <span>Never stop dreaming.</span>
+              </h1>
+            </div>
+            <div class="slide__content slide__content_right">
+              <h1 class="slide__title slide__title_right">
+                And<br>be that.
+                <span>Never stop dreaming.</span>
+              </h1>
+            </div>
+          </article>
+        </span>
+        <!-- slider:container:slide END -->
+
+      </div>
+      <!-- slider:container START -->
+
+    </section>
+    <!-- microsite END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/gsapClassNames.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
